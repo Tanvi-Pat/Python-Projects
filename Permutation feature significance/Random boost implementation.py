@@ -4,7 +4,6 @@
 # In[3]:
 
 
-#https://towardsdatascience.com/explain-your-machine-learning-with-feature-importance-774cd72abe
 import pandas as pd
 
 
@@ -170,7 +169,7 @@ plt.bar(list(dict_score.keys()), list(dict_score.values()))
 plt.xlabel('significance_score')
 plt.ylabel('variables')
 plt.xticks(rotation='vertical')
-plt.savefig('C:\\Users\\Dhanashree\\Downloads\\score.png', dpi = 500)
+plt.savefig('C:\\Users\\tpatil\\Downloads\\score.png', dpi = 500)
 plt.show()
 
 
